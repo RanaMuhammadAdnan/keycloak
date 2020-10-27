@@ -1,0 +1,152 @@
+.login-pf body {
+    background: #39a5dc;
+    background-size: cover;
+    height: 100%;
+}
+#kc-page-title{
+    text-align: center;
+}
+#kc-page-subtitle{
+	text-align: center
+}
+
+#kc-content {
+    width: 100%;
+}
+#kc-content-wrapper{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.login-pf-page .login-pf-accounts {
+    display: -ms-flexbox;
+    /* display: flex; */
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+	border: 1px solid grey;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 26px;
+    padding: 0px 12px;
+    font-size: 12px;
+    line-height: 1.66666667;
+    color: #363636;
+    background-color: #f1f1f1;
+    background-image: none;
+    border-radius: 22px;
+	border: 1px solid #f1f1f1
+}
+
+.form-control:focus {
+    border-color: #f1f1f1;
+    outline: 0;
+    box-shadow: none;
+}
+.form-control:hover{
+	border-color: #f1f1f1;
+    outline: 0;
+    box-shadow: none;
+}
+.btn-primary {
+    background-color: #0088ce;
+    /* background-image: linear-gradient(to bottom,#39a5dc 0,#0088ce 100%); */
+    /* background-repeat: repeat-x; */
+    border-color: #0088ce; 
+    color: #fff;
+	border-radius:22px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#kc-form-buttons {
+    margin-top: -18px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 0px;
+}
+.checkbox, .radio {
+    position: relative;
+    display: block;
+    margin-top: 0px; 
+    margin-bottom: 0px;
+	color: #bbb;
+}
+
+#forget-password{
+	color: #bbb;
+}
+.form-group {
+    margin-bottom: 8px;
+}
+.or{
+	display:block;
+	text-align:center;
+	padding:6px;
+}
+#kc-social-providers{
+	border-radius:22px;
+	padding-left:10px;
+	padding-right:5px;
+}
+.login-pf-page .login-pf-social-link a {
+    display: block;
+    padding: 4px 10px;
+    font-size: 12px;
+    text-align: center;
+	border-radius:22px;
+}
+.login-pf-page .login-pf-signup {
+    margin: 4px 0 0;
+    font-size: 12px;
+    text-align: center;
+    color: #bbb;
+}
+.login-pf-page .login-pf-signup a{
+	margin-left: 2px;
+	color: black;
+	text-decoration:underline;
+}
+#zocial-google{
+	background: #f5f5f5;
+    color: #72767b;
+    font-size: 12px;
+    font-weight: 500;
+}
+#zocial-facebook{
+	background:#4267b2;
+	color:#ffffff;
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#zocial-linkedin{
+	background:#0e76a8;
+	color:#ffffff;
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.visibility-signin{
+    position: relative;
+    left: 310px;
+    top: 38px;
+    width: 24px;
+    height: 24px;
+    opacity: 0.54;
+    border: none;
+    z-index: 2;
+}
+.visibility-signin img{
+    width: 18px;
+    height: 18px;
+}
